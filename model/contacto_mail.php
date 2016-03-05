@@ -13,7 +13,7 @@ $asunto = $_POST['subject'];
 /* Desarrollo */
 $api_key = 'key-eb656047b090ea091ef7c5d2fbd83dc5';
 $api_domain = 'sandbox3bfa1334fbee4dcca5b08a9b34b46337.mailgun.org';
-$send_to = 'desarrolloblick@gmail.com';
+$send_to = 'hola@blick.com';
 
 $name = $name2;
 $email = $email2;
