@@ -54,6 +54,6 @@ curl_close($curl);
 
    
 //return $result;
-$success = true;
-echo json_encode(array("success" => $success));
+$message = '<div class="alert alert-success" role="alert">¡Nos podremos en contacto contigo a la brevedad posible!</div>';
+ echo $message;
 ?>
