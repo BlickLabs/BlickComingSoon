@@ -43,7 +43,6 @@ button:active{
 }
 .lavel-up-header-bg-img{
 	background: url('../img/header.jpg') no-repeat center top fixed;
-	width: 100%;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	-moz-background-size: cover;
@@ -216,7 +215,6 @@ button:active{
 
 .lu-contact{
 	background: url('../img/foto-2.jpg') no-repeat center top fixed;
-	width: 100%;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	-moz-background-size: cover;
