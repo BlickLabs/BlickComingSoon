@@ -48,6 +48,33 @@ button:active{
 	-moz-background-size: cover;
 	background-size: cover;
  }
+ @media (min-width: 991px) {
+ 	.lavel-up-header-bg-img{
+ 		background: url('../img/header.jpg') no-repeat center top fixed;
+ 		-webkit-background-size: cover;
+ 		-o-background-size: cover;
+ 		-moz-background-size: cover;
+ 		background-size: cover;
+ 	}
+ }
+ @media (max-width: 990px) {
+ 	.lavel-up-header-bg-img{
+ 		background: url('../img/header.jpg') no-repeat center top fixed;
+ 		-webkit-background-size: cover;
+ 		-o-background-size: cover;
+ 		-moz-background-size: cover;
+ 		background-size: cover;
+ 	}
+ }
+ @media (max-width: 500px) {
+ 	.lavel-up-header-bg-img{
+ 		background: url('../img/header-mobile.jpg') no-repeat center top fixed;
+ 		-webkit-background-size: cover;
+ 		-o-background-size: cover;
+ 		-moz-background-size: cover;
+ 		background-size: cover;
+ 	}
+ }
 .lavel-up-color-overlay{
 	background: rgba(0, 0, 0, 0.55);
 	padding-top: 70px;
@@ -221,6 +248,37 @@ button:active{
 	background-size: cover;
 	color: #fff;
 }
+@media (min-width: 991px) {
+	.lu-contact{
+		background: url('../img/foto-2.jpg') no-repeat center top fixed;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		color: #fff;
+	}
+}
+@media (max-width: 990px) {
+	.lu-contact{
+		background: url('../img/foto-2.jpg') no-repeat center top fixed;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		color: #fff;
+	}
+}
+@media (max-width: 500px) {
+	.lu-contact{
+		background: url('../img/foto-2-mobile.jpg') no-repeat center top fixed;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		color: #fff;
+	}
+}
+
 .lu-overlay {
   background: rgba(0, 0, 0, 0.55);
   padding: 75px 0;
