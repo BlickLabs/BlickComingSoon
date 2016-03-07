@@ -42,7 +42,7 @@ button:active{
 	color: #fff;
 }
 .lavel-up-header-bg-img{
-	background: url('../img/header.jpg') no-repeat center top fixed;
+	background: url('../img/header.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	-moz-background-size: cover;
@@ -50,7 +50,7 @@ button:active{
  }
  @media (min-width: 991px) {
  	.lavel-up-header-bg-img{
- 		background: url('../img/header.jpg') no-repeat center top fixed;
+ 		background: url('../img/header.jpg') no-repeat center center fixed;
  		-webkit-background-size: cover;
  		-o-background-size: cover;
  		-moz-background-size: cover;
@@ -59,7 +59,7 @@ button:active{
  }
  @media (max-width: 990px) {
  	.lavel-up-header-bg-img{
- 		background: url('../img/header.jpg') no-repeat center top fixed;
+ 		background: url('../img/header.jpg') no-repeat center center fixed;
  		-webkit-background-size: cover;
  		-o-background-size: cover;
  		-moz-background-size: cover;
@@ -68,7 +68,7 @@ button:active{
  }
  @media (max-width: 500px) {
  	.lavel-up-header-bg-img{
- 		background: url('../img/header.jpg') no-repeat center top fixed;
+ 		background: url('../img/header.jpg') no-repeat center center fixed;
  		-webkit-background-size: cover;
  		-o-background-size: cover;
  		-moz-background-size: cover;
@@ -241,7 +241,7 @@ button:active{
    ========================================================================== */
 
 .lu-contact{
-	background: url('../img/foto-2.jpg') no-repeat center top fixed;
+	background: url('../img/foto-2.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	-moz-background-size: cover;
@@ -250,7 +250,7 @@ button:active{
 }
 @media (min-width: 991px) {
 	.lu-contact{
-		background: url('../img/foto-2.jpg') no-repeat center top fixed;
+		background: url('../img/foto-2.jpg') no-repeat center center fixed;
 		-webkit-background-size: cover;
 		-o-background-size: cover;
 		-moz-background-size: cover;
@@ -260,7 +260,7 @@ button:active{
 }
 @media (max-width: 990px) {
 	.lu-contact{
-		background: url('../img/foto-2.jpg') no-repeat center top fixed;
+		background: url('../img/foto-2.jpg') no-repeat center center fixed;
 		-webkit-background-size: cover;
 		-o-background-size: cover;
 		-moz-background-size: cover;
@@ -270,7 +270,7 @@ button:active{
 }
 @media (max-width: 500px) {
 	.lu-contact{
-		background: url('../img/foto-2.jpg') no-repeat center top fixed;
+		background: url('../img/foto-2.jpg') no-repeat center center fixed;
 		-webkit-background-size: cover;
 		-o-background-size: cover;
 		-moz-background-size: cover;
