@@ -68,7 +68,7 @@ button:active{
  }
  @media (max-width: 500px) {
  	.lavel-up-header-bg-img{
- 		background: url('../img/header.jpg') no-repeat center center fixed;
+ 		background: url('../img/header.jpg') no-repeat center center;
  		-webkit-background-size: cover;
  		-o-background-size: cover;
  		-moz-background-size: cover;
@@ -270,7 +270,7 @@ button:active{
 }
 @media (max-width: 500px) {
 	.lu-contact{
-		background: url('../img/foto-2.jpg') no-repeat center center fixed;
+		background: url('../img/foto-2.jpg') no-repeat center center;
 		-webkit-background-size: cover;
 		-o-background-size: cover;
 		-moz-background-size: cover;
