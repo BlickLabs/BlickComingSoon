@@ -42,14 +42,24 @@ button:active{
 	color: #fff;
 }
 .lavel-up-header-bg-img{
-	background: url('../img/header.jpg') no-repeat center top fixed;
+	background: url('../img/header.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
 	background-size: cover;
+ }
+ @media (max-width: 500px) {
+ 	.lavel-up-header-bg-img{
+ 		background: url('../img/header.jpg') no-repeat center center;
+ 		-webkit-background-size: cover;
+ 		-o-background-size: cover;
+ 		-moz-background-size: cover;
+ 		background-size: cover;
+ 	}
  }
 .lavel-up-color-overlay{
 	background: rgba(0, 0, 0, 0.55);
 	padding-top: 70px;
-	background-image: url('../img/pattern.png');
 }
 @media (min-width: 991px) {
 	.lu-title{
@@ -213,14 +223,46 @@ button:active{
    ========================================================================== */
 
 .lu-contact{
-	background: url('../img/foto-2.jpg') no-repeat center top fixed;
+	background: url('../img/foto-2.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
 	background-size: cover;
 	color: #fff;
 }
+@media (min-width: 991px) {
+	.lu-contact{
+		background: url('../img/foto-2.jpg') no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		color: #fff;
+	}
+}
+@media (max-width: 990px) {
+	.lu-contact{
+		background: url('../img/foto-2.jpg') no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		color: #fff;
+	}
+}
+@media (max-width: 500px) {
+	.lu-contact{
+		background: url('../img/foto-2.jpg') no-repeat center center;
+		-webkit-background-size: cover;
+		-o-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		color: #fff;
+	}
+}
+
 .lu-overlay {
   background: rgba(0, 0, 0, 0.55);
-  background-image: url('../img/pattern.png');
   padding: 75px 0;
 }
 

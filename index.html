@@ -23,7 +23,7 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <header class="lavel-up-header lavel-up-header-bg-img" data-stellar-background-ratio="0.5">
+    <header class="lavel-up-header lavel-up-header-bg-img">
       <div class="lavel-up-color-overlay">
         <div class="container text-center">
 
@@ -42,7 +42,7 @@
           <!-- countdown end -->
 
           <!-- Newsletter signup start -->
-          <div class="lu-newletter">
+          <div class="lu-newletter" style="padding-bottom: 40px;">
             <h2>Diseño y programación web</h2>
              
           </div>
@@ -95,7 +95,7 @@
     <!-- What's new coming section end -->
 
     <!-- Contact form section -->
-    <section class="lu-contact" data-stellar-background-ratio="0.5">
+    <section class="lu-contact">
       <div class="lu-overlay">
         <div class="container">
           <h1 class="lu-section-title text-center">Contáctanos</h1>
@@ -140,7 +140,7 @@
         &copy; 2016 Blick
       </div>
     </footer>
-
+  
 
 
     <script src="js/jquery-1.11.2.min.js"></script>
@@ -152,5 +152,22 @@
     <script src="js/jquery.countdown.min.js"></script>
     <script src="js/retina.min.js"></script>
     <script src="js/main.js"></script>
+    <script type="text/javascript">
+        /*  Stellar for background scrolling  */
+        (function () {
+
+          if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+           
+          } else {
+            $(window).stellar({
+              horizontalScrolling: false,
+              verticalScrolling: false,
+              responsive: true
+            });
+          }
+
+        }());
+        /* End Stellar for background scrolling  */
+        </script>
   </body>
 </html>
